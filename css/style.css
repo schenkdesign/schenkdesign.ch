@@ -3,7 +3,7 @@
 body, html {
     height: 100%;
     font-family: 'Montserrat', sans-serif;
-    font-weight: light;
+    font-weight: lighter;
     margin: 0;
     padding: 0;
     background-color: #FFF;
@@ -13,12 +13,21 @@ body, html {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 .messenger {
 
 }
-
-
-
 
 
 /* Auf- und zuklappen */
