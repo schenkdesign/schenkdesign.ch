@@ -40,7 +40,7 @@ div.nav {
 
 .topLogo {
     display: inline-block;
-    width: 80%;
+    width: 90%;
 }
 
 .claim {
@@ -56,7 +56,7 @@ div.nav {
 }
 
 .point {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #00C0CC;
 }
 
