@@ -10,8 +10,28 @@ body, html {
     color: #FFF;
 }
 
+wrapper {
+    width: 100%;
+}
+
+.top {
+    height: 90%;
+    color: #000;
+}
+
+nav {
+    top: 1rem;
+    right: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* spalten */
+    text-align: right;
+    width: auto;
+}
 
 
+div.nav {
+    margin: 1em 1em;
+}
 
 
 
