@@ -14,8 +14,37 @@ wrapper {
     width: 100%;
 }
 
+h1 {
+    display:contents;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.underline {
+    font-weight:bold;
+    border-bottom: 3px #FFF solid;
+    transition: 0.7s;
+    padding-bottom: 0.1em;
+}
+.underline:hover {
+    border-bottom: 3px #00C0CC solid;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
 .top {
     height: 90%;
+    min-height: 750px;
     color: #000;
 }
 
@@ -74,7 +103,7 @@ div.pfeil {
     margin-top: 6em;
     background-color: #282B2B;
     width: auto;
-    padding: 2em 15%;
+    padding: 3em 15%;
 }
 
 .leistungenGrid {
