@@ -21,13 +21,12 @@ h1 {
 }
 
 .underline {
-    font-weight:bold;
-    border-bottom: 3px #FFF solid;
+    border-bottom: 0.3em #FFF solid;
     transition: 0.7s;
-    padding-bottom: 0.1em;
+    padding-bottom: 0.2em;
 }
 .underline:hover {
-    border-bottom: 3px #00C0CC solid;
+    border-bottom: 0.3em #00C0CC solid;
 }
 
 .bold {
@@ -43,7 +42,7 @@ h1 {
 
 
 .top {
-    height: 90%;
+    height: 80%;
     min-height: 750px;
     color: #000;
 }
@@ -112,7 +111,9 @@ div.pfeil {
     grid-column-gap: 3em;
 }
 
-
+.lead {
+    margin-top: 5em;
+}
 
 .messenger {
 
