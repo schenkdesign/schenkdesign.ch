@@ -49,6 +49,10 @@ div.nav {
     margin-top: auto;
     font-size: 3rem;    
     text-align: right;
+
+}
+.claim > p {
+    margin:0;
 }
 
 .point {
