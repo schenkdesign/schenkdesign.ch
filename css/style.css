@@ -19,21 +19,42 @@ wrapper {
     color: #000;
 }
 
+
 nav {
-    top: 1rem;
-    right: 2rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr; /* spalten */
     text-align: right;
-    width: auto;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
 }
 
 
 div.nav {
+    display: inline-block;
     margin: 1em 1em;
 }
+.first{
+    margin: 15% 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* spalten */
 
+}
 
+.topLogo {
+    display: inline-block;
+    width: 80%;
+}
+
+.claim {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-top: auto;
+    font-size: 3rem;    
+    text-align: right;
+}
+
+.point {
+    font-size: 3rem;
+    color: #00C0CC;
+}
 
 
 
