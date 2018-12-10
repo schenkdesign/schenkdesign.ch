@@ -3,7 +3,7 @@
 body, html {
     height: 100%;
     font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
+    font-weight: 100;
     margin: 0;
     padding: 0;
     background-color: #FFF;
@@ -47,7 +47,7 @@ div.nav {
     display: inline-block;
     vertical-align: bottom;
     margin-top: auto;
-    font-size: 3rem;    
+    font-size: 2.5rem;    
     text-align: right;
 
 }
@@ -56,16 +56,24 @@ div.nav {
 }
 
 .point {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: #00C0CC;
+    vertical-align: baseline;
+}
+
+
+div.pfeil {
+    width: 4rem;
+    margin: 4em auto;
 }
 
 
 
-
-
-
-
+.leistungen {
+    margin-top: 6em;
+    background-color: #282B2B;
+    width: 100%;
+}
 
 
 
@@ -161,3 +169,29 @@ div.nav {
 }
     
 }
+
+
+
+
+
+
+
+
+
+
+/* Links */
+
+a, a:active, a:focus  {
+  color: #54A0FF;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+    text-decoration: none;
+}
+a:hover{
+  color: #DDD;
+  outline: none;
+  text-decoration: none;
+}
+
+
