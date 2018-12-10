@@ -39,8 +39,6 @@ h1 {
 
 
 
-
-
 .top {
     height: 80%;
     min-height: 750px;
@@ -58,6 +56,10 @@ nav {
 div.nav {
     display: inline-block;
     margin: 1em 1em;
+    transition: 0.8s;
+}
+div.nav:hover {
+    color: #00C0CC;
 }
 .first{
     margin: 15% 15%;
@@ -112,8 +114,63 @@ div.pfeil {
 }
 
 .lead {
-    margin-top: 5em;
+    margin: 6em 0 4em;
 }
+
+/* Referenzen */
+
+.referenzen {
+    color: #000;
+}
+
+.referenzenGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 0;
+}
+.referenz {
+    height: 15rem;;
+}
+
+#ref1 {
+    background-color: #1545B5;
+}
+#ref2 {
+    background-color: #0A95AD;
+}
+#ref3 {
+    background-color: #AC9DED;
+}
+#ref4 {
+    background-color: #189A86;
+}
+#ref5 {
+    background-color: #54A459;
+}
+#ref6 {
+    background-color: #5B8BBC;
+}
+#ref7 {
+    background-color: #397060;
+}
+#ref8 {
+    background-color: #4099B6;
+}
+
+/* ueber uns */
+
+.about {
+    margin-top: 6em;
+    color: #000;
+}
+
+.contact {
+    margin-top: 6em;
+    background-color: #282B2B;
+    width: auto;
+    padding: 3em 15%;
+}
+
 
 .messenger {
 
@@ -219,10 +276,10 @@ div.pfeil {
 /* Links */
 
 a, a:active, a:focus  {
-  color: #54A0FF;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  color: #00C0CC;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
     text-decoration: none;
 }
 a:hover{
@@ -231,4 +288,20 @@ a:hover{
   text-decoration: none;
 }
 
+
+/* Menue */
+
+div.nav > a, a:active, a:focus  {
+  color: #000;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+    text-decoration: none;
+}
+div.nav > a:hover{
+  color: #00C0CC;
+  outline: none;
+  text-decoration: none;
+    boder-bottom: 0.2em #00C0CC solid;
+}
 
