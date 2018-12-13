@@ -3,7 +3,7 @@
 body, html {
     height: 100%;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     margin: 0;
     padding: 0;
     background-color: #FFF;
@@ -17,9 +17,8 @@ wrapper {
 }
 
 h1 {
-    display:contents;
     margin: 0;
-    font-weight: lighter;
+    font-weight: 300;
 }
 
 .underline {
@@ -32,7 +31,7 @@ h1 {
 }
 
 .bold {
-    font-weight: bold;
+    font-weight: 600;
 }
 
 
@@ -42,8 +41,7 @@ h1 {
 
 
 .top {
-    height: 80%;
-    min-height: 750px;
+    height: 780px;
     color: #000;
 }
 
@@ -59,20 +57,23 @@ div.nav {
     display: inline-block;
     margin: 1em 1em;
     transition: 0.8s;
+    padding-bottom: 0.2em;
+    border-bottom: 0 #00C0CC solid;
+    border-bottom-width: 0;
 }
 div.nav:hover {
     color: #00C0CC;
+    border-bottom: 0.5em #00C0CC solid;
 }
 .first{
-    margin: 15% 15%;
+    margin: 200px 15% 180px;
     display: grid;
     grid-template-columns: 1fr 1fr; /* spalten */
-
 }
 
 .topLogo {
     display: inline-block;
-    width: 90%;
+    width: 23em;
 }
 
 .claim {
@@ -81,22 +82,28 @@ div.nav:hover {
     margin-top: auto;
     font-size: 2.5rem;    
     text-align: right;
-
+    transition: 0.8s;
 }
 .claim > p {
     margin:0;
+}
+
+.claim > p:hover:before {
+    margin:0;
+    content: "Ihre "
 }
 
 .point {
     font-size: 1.5rem;
     color: #00C0CC;
     vertical-align: baseline;
+    padding-left: 0.1em;
 }
 
 
 div.pfeil {
     width: 4rem;
-    margin: 4em auto;
+    margin: 280px auto;
 }
 
 
@@ -106,7 +113,7 @@ div.pfeil {
     margin-top: 6em;
     background-color: #282B2B;
     width: auto;
-    padding: 3em 15%;
+    padding: 4em 15%;
 }
 
 .leistungenGrid {
@@ -122,7 +129,16 @@ div.pfeil {
 /* Referenzen */
 
 .referenzen {
+    padding:4em 0;
     color: #000;
+}
+
+.referenzenHead > h1 > span.underline {
+    border-bottom-color: #000;
+}
+
+.referenzenHead {
+    margin: 0 15% 2.5em;;
 }
 
 .referenzenGrid {
@@ -162,9 +178,17 @@ div.pfeil {
 /* ueber uns */
 
 .about {
+    padding: 4em 15%;
     margin-top: 6em;
     color: #000;
 }
+
+.person {
+    width: 6em;
+}
+
+
+
 
 .contact {
     margin-top: 6em;
