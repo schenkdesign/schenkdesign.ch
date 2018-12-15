@@ -22,10 +22,16 @@ wrapper {
 h1 {
     margin: 0;
     font-weight: 300;
+    margin-bottom: 3em;
 }
 
 .underline {
     border-bottom: 0.3em #FFF solid;
+    transition: 0.6s;
+    padding-bottom: 0.2em;
+}
+.underlineDark {
+    border-bottom: 0.3em #000 solid;
     transition: 0.6s;
     padding-bottom: 0.2em;
 }
@@ -141,9 +147,7 @@ div.pfeil {
     color: #000;
 }
 
-.referenzenHead > h1 > span.underline {
-    border-bottom-color: #000;
-}
+
 
 .referenzenHead {
     margin: 0 15% 2.5em;;
@@ -204,44 +208,52 @@ div.pfeil {
 
 
 #ref1 {
-    background-color: #1545B5;
 }
 #ref2 {
-    background-color: #0A95AD;
 }
 #ref3 {
-    background-color: #AC9DED;
 }
 #ref4 {
-    background-color: #189A86;
 }
 #ref5 {
-    background-color: #54A459;
 }
 #ref6 {
-    background-color: #5B8BBC;
 }
 #ref7 {
-    background-color: #397060;
 }
 #ref8 {
-    background-color: #4099B6;
 }
 
 /* ueber uns */
 
 .about {
     padding: 4em 15%;
-    margin-top: 6em;
+    margin-top: 0;
     color: #000;
 }
 
 .person {
-    width: 6em;
+    margin-top: 3em;
+    width: 250px;
 }
 
+.portrait {
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px 4px 0 0;
+}
 
+#portraitBS {
+    background-image: url('../img/PortraitBS.jpg');
+}
 
+.personDescription {
+    padding: 0.6em;
+    background-color: #282B2B;
+}
 
 .contact {
     margin: 6em 0 0 0;
