@@ -166,12 +166,40 @@
         </div>
         <div id="contact" class="contact">
             <h1><span class="bold underline">Kontakt</span></h1>
-                <div class="form">
-                </div>
-                <div class="adress">
-                </div>
-                <div class="socialmedia">
-                </div>
+                <!-- Formular-Beginn -->
+                    <form id="frmContact" class="formular">
+                        <div id="erfolgsmeldung"></div>
+                        <div class="form-group" id="frmGrpVorname">
+                            <label for="InputEmail" class="control-label">Vorname</label>
+                            <input type="text" class="form-control" name="InputVorname" required>
+                        </div>
+                        <div class="form-group" id="frmGrpName">
+                            <label for="InputName" class="control-label">Name</label>
+                            <input type="text" class="form-control" name="InputName" required>
+                        </div>
+                        <div class="form-group" id="frmGrpVerlag">
+                            <label for="InputVerlag" class="control-label">Firma</label>
+                            <input type="text" class="form-control" name="InputFirma">
+                        </div>
+                        <div class="form-group" id="frmGrpEmail">
+                            <label for="InputEmail" class="control-label">E-Mail-Adresse</label>
+                            <input type="text" class="form-control" name="InputEmail" aria-describedby="emailHelp" required>
+                        </div>
+                        <div class="form-group" id="frmGrpAnmerkungen">
+                            <label for="InputAnmerkungen" class="control-label">Anfrage</label>
+                            <textarea class="form-control" name="InputAnmerkungen" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" id="submitBtn" class="form-submit-btn"> Absenden </button>
+                        </div>
+            </form>
+        <div class="address">
+            <p>Schenk Design</p>
+            <p>Oberdorfstrasse 41</p>
+            <p>4244 Röschenz</p>
+        </div>
+        <div class="socialmedia">
+        </div>
         </div>
     </wrapper>
 </body>
