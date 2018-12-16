@@ -12,7 +12,9 @@ body, html, textarea {
 
 }
 
-p {margin: 0;
+p {
+    margin: 0;
+    font-size: 1.1em;
 }
 
 wrapper {
@@ -133,6 +135,9 @@ div.pfeil {
     width: auto;
     padding: 4em 15%;
 }
+.leistung {
+    margin-top: 3rem;
+}
 
 .leistungenGrid {
     display: grid;
@@ -141,7 +146,7 @@ div.pfeil {
 }
 
 .lead {
-    margin: 6em 0 4em;
+    margin: 6em 0 0;
 }
 
 /* Referenzen */
@@ -314,7 +319,14 @@ button:hover {
     box-sizing: border-box;
 }
 
+.leistungImg {
+    font-size: 5rem;
+    transition: 0.8s;
+}
 
+.leistungImg:hover {
+    color: #00C0CC;
+}
 
 
 .messenger {
